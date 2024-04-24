@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "name": "lru-cache",
+  "version": "1.0.0",
+  "description": "This package provides a simple utility for caching the results of functions based on their input arguments. By caching previously computed results. The caching mechanism uses LRU(Least recently Used) cache method to store results. ",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsup"
+  },
+  "keywords": [
+    "LRU",
+    "cache",
+    "memoize",
+    "memoization"
+  ],
+  "author": "irshit033",
+  "license": "MIT"
+}
