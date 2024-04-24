@@ -3,9 +3,9 @@
 This package provides a simple utility for caching the results of functions based on their input arguments. By caching previously computed results. The caching mechanism uses LRU(Least recently Used) cache method to store results.
 ## How to use it
 ```
-const cache = require('blaze-cache');
+const {cache} = require('blaze-cache');
 // or
-import cache from "blaze-cache"
+import {cache} from "blaze-cache"
 
 // program to display fibonacci sequence using recursion
 
